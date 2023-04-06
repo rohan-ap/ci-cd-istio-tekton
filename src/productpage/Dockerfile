@@ -12,7 +12,7 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-FROM python:latest
+FROM quay.io/rohanp/python-slim
 
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt

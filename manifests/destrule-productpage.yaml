@@ -11,3 +11,6 @@ spec:
     - name: 'latest'
       labels:
         version: latest
+    - name: 'latest'
+      labels:
+        version: latest
